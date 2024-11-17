@@ -1,0 +1,56 @@
+$white: #FFFFFF;
+$dark: #0B0B0F;
+$blue: #5C94CC;
+$green: #5CCC5C;
+$red: #CC5C5C;
+
+body, html, #root {
+  background: $dark;
+  color: $white;
+  height: 100%;
+  width: 100%;
+}
+
+button, input, select, option {
+  background: $dark;
+  border: 1px solid $white;
+  border-radius: 2px;
+  color: $white;
+  height: 3em;
+  padding: 0 0.5em;
+}
+
+.carrier {
+  border: 1px solid $white;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  width: 10em;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.column { flex-direction: column; }
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  justify-content: flex-start;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  label { padding: 0.35em 0; }
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
